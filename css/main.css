@@ -1,1 +1,41 @@
-/* Los estilos de tu proyecto */
+a{
+  color: #000;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.navbar{
+  margin:0;
+  height: 70px;
+}
+
+.logo1{
+  width: 100%;
+}
+
+.jumbotron{
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 110vh;
+}
+
+.container{
+  background-color: #fcb700;
+  color: #fff;
+  height: 300px;
+  width: 50%;
+}
+
+.logo2{
+  width: 30%
+}
+
+.label{
+  background-color: #fff;
+  color: #000;
+  padding: 3%;
+}
