@@ -15,12 +15,13 @@ a{
   width: 100%;
 }
 
-.jumbotron{
+.background-1{
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 110vh;
+  margin: 0;
 }
 
 .container{
@@ -37,5 +38,50 @@ a{
 .label{
   background-color: #fff;
   color: #000;
+  margin-bottom: 20%;
   padding: 3%;
+}
+
+.line{
+  border-bottom: 1px solid #fff;
+}
+
+.yellow{
+  background-color: #fcb700;
+  margin: 0;
+  height: 500px;
+}
+
+.box{
+  background-color: #fcb700;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  height: 400px;
+}
+
+.info{
+  color: #fff;
+  font-size: 15px;
+  margin: 40px;
+}
+
+.background-2{
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 110vh;
+  margin: 0;
+}
+
+.container-2{
+  background-color: #000;
+  color: #fff;
+  height: 300px;
+  opacity: 0.5;
+}
+
+.more{
+  color: #000;
 }
